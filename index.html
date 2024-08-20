@@ -8,9 +8,28 @@
 </head>
 <body>
     <header>
-        <div><a href="#"><img src="" alt=""></a></div>
+        <div><a href="#"><img src="imagenes/Logo.png" alt="Logo de Alura"></a></div>
     </header>
     <main>
+        <div class="" id="inputSection">
+            <form >
+                <textarea name="" id="inputText"></textarea>
+                <span><img src="imagenes/exclamation-circle.png" alt="Signo de información">Solo letras minúsculas y sin acentos</span>
+                <button class="button" id="encodeButton">Encriptar</button>
+                <button class="button" id="decodeButton">Desencriptar</button>
+            </form>
+        </div>
+        <div id="resultsSection">
+            <div id="cardContainer">
+                <img src="imagenes/Munieco.png" alt="Un niño buscando algo">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="resultContainer">
+                <p>Resultado del texto encriptado</p>
+                <button id="copyButton">Copiar</button>
+            </div>
+        </div>
         <!-- Título de su sitio web
         Campo para el texto que va a ser encriptado/desencriptado
         Un botón para encriptar
