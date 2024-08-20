@@ -1,8 +1,40 @@
 body {
     background-color: #f3f5fc;
     color: #0A3871;
+    width: 100%;
 }
 
 header {
     margin: 40px;
+}
+
+.contenidoPrincipal {
+    margin: 40px;
+    display: inline-flex;
+}
+
+#inputSection {
+    width: 70%;
+    margin: 20px;
+}
+
+#resultsSection{
+    width: 30%;
+    margin: 20px;
+    background-color: white;
+    border-radius: 32px;
+    padding: 32px;
+    text-align: center;
+}
+
+#inputText {
+    width: 100%;
+    height: 60vh;
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+}
+
+#inputText:focus{
+    outline: none;
 }

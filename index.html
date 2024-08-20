@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
     <header>
         <div><a href="#"><img src="imagenes/Logo.png" alt="Logo de Alura"></a></div>
     </header>
-    <main>
+    <main class="contenidoPrincipal">
         <div class="" id="inputSection">
             <form >
-                <textarea name="" id="inputText"></textarea>
+                <textarea name="" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
                 <span><img src="imagenes/exclamation-circle.png" alt="Signo de información">Solo letras minúsculas y sin acentos</span>
                 <button class="button" id="encodeButton">Encriptar</button>
                 <button class="button" id="decodeButton">Desencriptar</button>
