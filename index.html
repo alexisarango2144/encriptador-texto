@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
     <header>
         <div>
-            <a href="#"><img src="imagenes/Logo.png" alt="Logo de Alura"></a>
+            <a href="#"><img src="./assets/Logo.png" alt="Logo de Alura"></a>
         </div>
     </header>
     <main class="contenidoPrincipal">
-        <div class="" id="inputSection">
+        <div class="inputSection">
             <form >
-                <textarea name="" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
-                <span><img src="imagenes/exclamation-circle.png" alt="Signo de información">Solo letras minúsculas y sin acentos</span>
-                <button class="button" id="encodeButton">Encriptar</button>
-                <button class="button" id="decodeButton">Desencriptar</button>
+                <div class="inputGroup">
+                    <textarea name="" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+                    <span class="textInfo"><img src="./assets/exclamation-circle.png" class="infoImage" alt="Signo de información">Solo letras minúsculas y sin acentos</span>
+                </div>
+                <div class="buttonGroup">
+                    <button class="button bg-blue" id="encodeButton">Encriptar</button>
+                    <button class="button" id="decodeButton">Desencriptar</button>
+                </div>
             </form>
         </div>
-        <div id="resultsSection">
-            <div id="cardContainer">
-                <img src="imagenes/Munieco.png" alt="Un niño buscando algo">
-                <h3>Ningún mensaje fue encontrado</h3>
-                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        <div class="resultsSection">
+            <div class="cardContainer ">
+                <img src="./assets/Munieco.png" class="cardImage" alt="Un niño buscando algo">
+                <h3 class="cardTitle">Ningún mensaje fue encontrado</h3>
+                <p class="cardText">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <div id="resultContainer">
-                <p>Resultado del texto encriptado</p>
-                <button id="copyButton">Copiar</button>
+            <div class="resultContainer d-none">
+                <p class="resultText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies. Curabitur auctor leo non urna sagittis, eu scelerisque dolor vestibulum. Etiam fringilla consequat magna sit amet egestas. Vivamus tincidunt fermentum risus, quis efficitur nibh pulvinar vitae. Cras libero sapien, pellentesque ac rutrum vel, efficitur vitae dui. In eu hendrerit erat. Fusce at pulvinar erat. Phasellus porttitor at justo eget blandit. Curabitur id volutpat ligula. Donec elementum metus a ex convallis bibendum. Suspendisse dictum justo at elit posuere, eu aliquam mi fringilla.</p>
+                <button class="button" id="copyButton">Copiar</button>
             </div>
         </div>        
     </main>
-    <footer></footer>
-    <script src="js/script.js"></script>
+    <footer class="footerContainer">
+        <span class="footerText">Desarrollado por: <a href="https://github.com/alexisarango2144" target="_blank" class="footerLink"><strong>@alexisarango2144</strong></a> y <a href="https://github.com/jhonni4124" target="_blank" class="footerLink"><strong>@jhonni2144</strong></a></span>
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
