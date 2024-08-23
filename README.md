@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-Este proyecto, resultado de los cursos vistos en **Alura Latam** como parte del programa `Oracle Next Education` es una aplicación web simple, que permite encriptar y desencriptar textos utilizando un método básico de sustitución de caracteres. El objetivo principal es transformar las vocales del texto introducido a una serie de claves específicas para encriptar el mensaje.
+Este proyecto, resultado de los cursos vistos en **Alura Latam** como parte del programa `Oracle Next Education`, es una aplicación web simple, que permite encriptar y desencriptar textos utilizando un método básico de sustitución de caracteres. El objetivo principal es transformar las vocales del texto introducido a una serie de claves específicas para encriptar el mensaje.
 
 ## Características
 
