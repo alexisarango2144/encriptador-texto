@@ -17,12 +17,12 @@
         <div class="inputSection">
             <form >
                 <div class="inputGroup">
-                    <textarea name="" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+                    <textarea name="" id="inputText" placeholder="Ingrese el texto aquí" spellcheck="false" aria-label="Caja de texto para ingresar el mensaje a encriptar o desencriptar"></textarea>
                     <span class="textInfo"><img src="./assets/exclamation-circle.png" class="infoImage" alt="Signo de información">Solo letras minúsculas y sin acentos</span>
                 </div>
                 <div class="buttonGroup">
-                    <button type="button" class="button bg-blue" id="encodeButton" onclick="codificar()">Encriptar</button>
-                    <button type="button" class="button" id="decodeButton" onclick="decodificar()">Desencriptar</button>
+                    <button type="button" class="button bg-blue" id="encodeButton" onclick="codificar()" aria-label="Botón para encriptar">Encriptar</button>
+                    <button type="button" class="button" id="decodeButton" onclick="decodificar()" aria-label="Botón para desencriptar">Desencriptar</button>
                 </div>
             </form>
         </div>
@@ -36,7 +36,7 @@
                 <div class="resultTextContainer">
                     <textarea class="resultText" readonly>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies.</textarea>
                 </div>
-                <button type="button" class="button" id="copyButton" onclick="toClipboard()">Copiar</button>
+                <button type="button" class="button" id="copyButton" onclick="toClipboard()" aria-label="Botón para copiar al portapapeles">Copiar</button>
             </div>
         </div>        
     </main>
