@@ -150,13 +150,19 @@ footer {
     font-size: 1.5rem;
     color: var(--secondary-color);
     text-align: left;
-    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+.resultText:focus {
+    outline: none;
 }
 
 .resultTextContainer{
     box-sizing: border-box;
     height: 60vh;
-    overflow-y: scroll;
     margin-bottom: 30px;
 }
 

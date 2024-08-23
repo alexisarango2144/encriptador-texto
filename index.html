@@ -21,22 +21,22 @@
                     <span class="textInfo"><img src="./assets/exclamation-circle.png" class="infoImage" alt="Signo de información">Solo letras minúsculas y sin acentos</span>
                 </div>
                 <div class="buttonGroup">
-                    <button class="button bg-blue" id="encodeButton">Encriptar</button>
-                    <button class="button" id="decodeButton">Desencriptar</button>
+                    <button type="button" class="button bg-blue" id="encodeButton" onclick="codificar()">Encriptar</button>
+                    <button type="button" class="button" id="decodeButton" onclick="decodificar()">Desencriptar</button>
                 </div>
             </form>
         </div>
         <div class="resultsSection">
-            <div class="cardContainer  d-none">
+            <div class="cardContainer">
                 <img src="./assets/Munieco.png" class="cardImage" alt="Un niño buscando algo">
                 <h3 class="cardTitle">Ningún mensaje fue encontrado</h3>
                 <p class="cardText">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <div class="resultContainer">
+            <div class="resultContainer  d-none">
                 <div class="resultTextContainer">
-                    <p class="resultText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies.</p>
+                    <textarea class="resultText" readonly>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies.</textarea>
                 </div>
-                <button class="button" id="copyButton">Copiar</button>
+                <button type="button" class="button" id="copyButton" onclick="toClipboard()">Copiar</button>
             </div>
         </div>        
     </main>
