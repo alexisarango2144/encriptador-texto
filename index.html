@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
 </head>
 <body>
     <header>
@@ -27,13 +27,15 @@
             </form>
         </div>
         <div class="resultsSection">
-            <div class="cardContainer ">
+            <div class="cardContainer  d-none">
                 <img src="./assets/Munieco.png" class="cardImage" alt="Un niño buscando algo">
                 <h3 class="cardTitle">Ningún mensaje fue encontrado</h3>
                 <p class="cardText">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
-            <div class="resultContainer d-none">
-                <p class="resultText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies. Curabitur auctor leo non urna sagittis, eu scelerisque dolor vestibulum. Etiam fringilla consequat magna sit amet egestas. Vivamus tincidunt fermentum risus, quis efficitur nibh pulvinar vitae. Cras libero sapien, pellentesque ac rutrum vel, efficitur vitae dui. In eu hendrerit erat. Fusce at pulvinar erat. Phasellus porttitor at justo eget blandit. Curabitur id volutpat ligula. Donec elementum metus a ex convallis bibendum. Suspendisse dictum justo at elit posuere, eu aliquam mi fringilla.</p>
+            <div class="resultContainer">
+                <div class="resultTextContainer">
+                    <p class="resultText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse consectetur accumsan velit,  consectetur adipiscing elit. Suspendisse consectetur Fusce vel mollis neque, tincidunt cursus ipsum. Curabitur luctus ante quis ligula sodales, eget eleifend nisi dictum. Mauris scelerisque a metus vel tincidunt. Vestibulum scelerisque ex vitae lacus feugiat, aliquet placerat lectus ultricies.</p>
+                </div>
                 <button class="button" id="copyButton">Copiar</button>
             </div>
         </div>        
